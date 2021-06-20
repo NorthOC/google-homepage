@@ -56,15 +56,39 @@ body{
         width: 100%;
     }
 }
-#nav a {
+.link{
     text-decoration: none;
     color: black;
     font-size: 13px;
     padding: 7px;
 }
-#nav a:hover{
+.link:hover{
     text-decoration: underline;
 }
 #nav {
     padding-top: 10px;
+    padding-right: 20px;
+}
+#icon{
+    text-decoration: none;
+    color: gray;
+    vertical-align: middle;
+    padding-right: 7px;
+}
+#icon:hover{
+    color: black;
+    transition: 1s;
+}
+.nav-button{
+        background-color: #0285d1;
+        border: none;
+        color: white;
+        text-align: center;
+        padding: 7px 12px;
+        border-radius: 3px;
+        text-decoration: none;
+        display: inline-block;
+}
+.nav-button:hover{
+    box-shadow: 0px 0.5px rgba(0, 0, 0, 0.452);
 }
